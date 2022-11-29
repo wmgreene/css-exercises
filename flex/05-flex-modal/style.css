@@ -64,3 +64,14 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+nav.ui{
+  display:flex;
+  justify-content:space-between;
+  margin:20px;
+}
+div.close-button{
+  justify-content:right;
+}
+div.header{
+  font-weight:bold;
+}

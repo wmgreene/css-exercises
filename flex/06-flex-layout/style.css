@@ -10,14 +10,60 @@ body {
 img {
   width: 600px;
 }
+div.header{
 
+}
+
+li{
+  display: inline-block;
+  margin: 10px;
+}
+div.content{
+position:fixed;
+top:250px;
+left:30%;
+}
+
+div.test{
+  position:relative;
+  right:13%;
+}
+
+div.buttons{
+  position:fixed;
+  width:30%;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: maroon;
+  display:inline;
+  padding:10px;
+  position:relative;
 }
 
+button:last-of-type{
+  left:200px
+}
+div.footer{
+  position:fixed;
+  bottom:10px;
+}
+
+ul.right-links-top{
+  position:fixed;
+  right:10px;
+  top:0px;
+}
+ul.right-links-bot{
+  position:fixed;
+  right:10px;
+  bottom:10px;
+}
+ul.left-links{
+
+}
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
